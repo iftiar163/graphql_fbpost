@@ -8,6 +8,10 @@ const postSchema = mongoose.Schema({
 		trim : true,
 		required : true
 	},
+	authorImage : {
+		type : String,
+		trim : true,
+	},
 	postContent : {
 		type : String,
 		trim : true,
